@@ -1,6 +1,32 @@
+const navbar = document.createElement('nav')
+app.appendChild(navbar)
+const li = document.createElement('li')
+li.innerText="Dodaj książke"
+const li2 = document.createElement('li')
+li2.setAttribute('class','nav-lis')
+li2.innerText="Lista książek"
+navbar.appendChild(li)
+navbar.appendChild(li2)
+
+const header = document.createElement('header')
+header.setAttribute('class','main-header')
+app.appendChild(header)
+const headDiv = document.createElement('div')
+header.appendChild(headDiv)
+const HeadH1 = document.createElement('h1')
+HeadH1.innerText="Lista książek"
+headDiv.appendChild(HeadH1)
+
+const section = document.createElement('section')
+app.appendChild(section)
+const sectDiv = document.createElement('div')
+sectDiv.setAttribute('id','grid')
+section.appendChild(sectDiv)
+
 const container = document.createElement('div')
 container.setAttribute('class','container')
 grid.appendChild(container)
+
 // template
 const div = document.createElement('div')
 div.setAttribute('class','divun')
@@ -216,3 +242,4 @@ function usun5(){
 function usun6(){
     container.removeChild(div6)
 }
+

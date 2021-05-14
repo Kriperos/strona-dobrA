@@ -11,8 +11,9 @@ nav{
     height:4rem ;
     list-style: none;
     text-decoration: none;
+    width: 100%;
 }
-nav ul li{
+nav li{
     margin-top: 0.5rem;
     margin-left: 2rem ;
     display: inline-flex;
